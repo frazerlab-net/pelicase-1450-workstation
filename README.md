@@ -4,7 +4,8 @@ An AC-powered, transportable desktop workstation housed inside a Peli 1450 prote
 
 ![Open Workstation](assets/open-workstation.jpg)
 
-![Open Workstation](assets/in-use-linux-mint.jpg)
+
+![Working Workstation](assets/in-use-linux-mint.jpg)
 
 ## Overview & Purpose
 Built to consolidate spare desktop hardware into a self-contained, easily transportable workstation without requiring an external monitor setup. The system operates on standard mains AC power with the lid open for airflow and screen visibility, serving as a cross-OS testing, diagnostics, and general computing machine.
@@ -32,7 +33,7 @@ Built to consolidate spare desktop hardware into a self-contained, easily transp
 
 ![Lid HDMI Clearance and Internal Layout](assets/lid-hdmi-clearance.jpg)
 
-![Lid HDMI Clearance and Internal Layout](assets/in-linux-mint2.jpg)
+![Workstation In Use](assets/in-linux-mint2.jpg)
 
 ## Operating System & Dual-Boot Setup
 * **Bootloader:** GRUB managing dual-boot selection on the 2TB Crucial SSD.
