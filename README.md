@@ -4,6 +4,8 @@ An AC-powered, transportable desktop workstation housed inside a Peli 1450 prote
 
 ![Open Workstation](assets/open-workstation.jpg)
 
+![Open Workstation](assets/in-use-linux-mint.jpg)
+
 ## Overview & Purpose
 Built to consolidate spare desktop hardware into a self-contained, easily transportable workstation without requiring an external monitor setup. The system operates on standard mains AC power with the lid open for airflow and screen visibility, serving as a cross-OS testing, diagnostics, and general computing machine.
 
@@ -29,6 +31,8 @@ Built to consolidate spare desktop hardware into a self-contained, easily transp
 * **Thermal & Power Operation:** Requires direct mains AC power to the Corsair CS750M PSU. The case is operated strictly with the lid open to ensure unobstructed intake and exhaust airflow across the Ryzen stock cooler, GTX 1070, and PSU.
 
 ![Lid HDMI Clearance and Internal Layout](assets/lid-hdmi-clearance.jpg)
+
+![Lid HDMI Clearance and Internal Layout](assets/in-linux-mint2.jpg)
 
 ## Operating System & Dual-Boot Setup
 * **Bootloader:** GRUB managing dual-boot selection on the 2TB Crucial SSD.
