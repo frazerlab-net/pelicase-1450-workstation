@@ -33,7 +33,7 @@ Built to consolidate spare desktop hardware into a self-contained, easily transp
 
 ![Lid HDMI Clearance and Internal Layout](assets/lid-hdmi-clearance.jpg)
 
-![Workstation In Use](assets/in-use-linux-mint2.jpeg)
+![Workstation In Use](assets/in-use-linux-mint2.jpg)
 
 ## Operating System & Dual-Boot Setup
 * **Bootloader:** GRUB managing dual-boot selection on the 2TB Crucial SSD.
