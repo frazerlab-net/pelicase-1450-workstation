@@ -8,7 +8,8 @@ An AC-powered, transportable desktop workstation housed inside a Peli 1450 prote
 ![Working Workstation](assets/in-use-linux-mint.jpeg)
 
 ## Overview & Purpose
-Built to consolidate spare desktop hardware into a self-contained, easily transportable workstation without requiring an external monitor setup. The system operates on standard mains AC power with the lid open for airflow and screen visibility, serving as a cross-OS testing, diagnostics, and general computing machine.
+Built to consolidate spare desktop hardware into a self-contained, easily transportable workstation without requiring an external monitor setup. The system operates on standard mains AC power with the lid open for airflow and screen visibility, serving as a cross-OS testing and diagnostics workstation—and previously filling in as a temporary Proxmox compute node for my homelab via a swappable SSD.
+
 
 ## Hardware Specifications
 
@@ -41,6 +42,8 @@ Built to consolidate spare desktop hardware into a self-contained, easily transp
 * **Bootloader:** GRUB managing dual-boot selection on the 2TB Crucial SSD.
 * **Windows 10:** Used for Windows-native software, hardware utilities, and general desktop workloads.
 * **Linux Mint:** Used for Bash scripting, network diagnostics, and Linux administration practice.
+* **Temporary Homelab Compute Node (Swappable Proxmox SSD):** Previously served as a temporary compute node in https://github.com/frazerlab-net/proxmox-enterprise-lab via a separate Proxmox VE SSD to host Windows VMs until a dedicated second mini PC was added. I still retain the configured Proxmox drive, allowing the workstation to be dropped back in as a spare node if needed.
+
 
 ## Design Trade-Offs & Lessons Learned
 
