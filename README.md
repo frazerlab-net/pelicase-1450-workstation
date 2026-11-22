@@ -53,4 +53,6 @@ Built to consolidate spare desktop hardware into a self-contained, easily transp
 * **Non-Invasive Internal Mounting:** Using 3M motherboard standoffs and adhesive pads secures the hardware reliably during transport without drilling external mounting holes through the protective case, keeping it water tight to the manufacturers original standard for transportation.
 * **Display Cable Clearance:** Cutting a small side clearance in the lid allowed a standard HDMI-to-right-angle Mini-HDMI cable to fit without straining the display port, though a flat ribbon HDMI cable would have achieved the same result without modifying the shell.
 * **Pre-Transport Preparation & Clearance:** Before closing the lid for transport, any USB peripherals/dongles must be removed from the front I/O panel, the mains power cable tucked into the corner recess, and the GPU PCIe power cable unplugged and routed down the side so it does not press against or damage the lid-mounted display. Using a low-profile 180-degree PCIe power adapter could eliminate the need to disconnect the GPU lead between uses.
+![Internal Transport Configuration](assets/transport-internal.jpg)
+![Closed Peli 1450 Ready for Transport](assets/transport-closed.jpg)
 
