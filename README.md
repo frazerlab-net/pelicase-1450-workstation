@@ -30,6 +30,8 @@ Built to consolidate spare desktop hardware into a self-contained, easily transp
 * **Lid Display & HDMI Clearance:** The Arzopa portable display is recessed into pre-sized Shadow Foam inside the case lid. A small clearance relief was cut into the side of the lid/foam channel to accommodate a right-angle Mini-HDMI to HDMI cable without putting strain on the display port or pinching the cable when the lid is closed.
 * **Salvaged Front Panel I/O:** The front I/O module from an NZXT S340 chassis was repurposed and mounted inside the case to provide accessible power/reset controls and external USB/audio connectivity without reaching the rear motherboard shield.
 * **Thermal & Power Operation:** Requires direct mains AC power to the Corsair CS750M PSU. The case is operated strictly with the lid open to ensure unobstructed intake and exhaust airflow across the Ryzen stock cooler, GTX 1070, and PSU.
+* **Cable Routing & Adapters:** Uses a right-angle Ethernet adapter for easier network cable access in tight quarters, and connects the GPU to the display using an HDMI-to-right-angle Mini-HDMI cable paired with a repurposed right-angle HDMI adapter at the GPU end.
+
 
 ![Lid HDMI Clearance and Internal Layout](assets/lid-hdmi-clearance.jpg)
 
@@ -39,3 +41,13 @@ Built to consolidate spare desktop hardware into a self-contained, easily transp
 * **Bootloader:** GRUB managing dual-boot selection on the 2TB Crucial SSD.
 * **Windows 10:** Used for Windows-native software, hardware utilities, and general desktop workloads.
 * **Linux Mint:** Used for Bash scripting, network diagnostics, and Linux administration practice.
+
+## Design Trade-Offs & Lessons Learned
+
+* **Weight & Lap Ergonomics:** Packing a full-size ATX PSU, dedicated GPU, and desktop cooler into a Peli 1450 makes the unit noticeably heavier than a standard laptop, limiting extended lap use and making it best suited for desk or tabletop operation, though lap use is still possible.
+* **Mains AC Power Dependency:** Built around standard desktop components and a 750W ATX PSU rather than low-power mobile hardware, prioritizing compute performance and zero-cost part reuse over battery autonomy.
+* **Open-Lid Thermal Operation:** Because the Peli 1450 shell remains sealed to preserve structural integrity, the system must be operated with the lid open so the Ryzen Wraith cooler, GTX 1070, and PSU have unobstructed airflow.
+* **Non-Invasive Internal Mounting:** Using 3M motherboard standoffs and adhesive pads secures the hardware reliably during transport without drilling external mounting holes through the protective case, keeping it water tight to the manufacturers original standard for transportation.
+* **Display Cable Clearance:** Cutting a small side clearance in the lid allowed a standard HDMI-to-right-angle Mini-HDMI cable to fit without straining the display port, though a flat ribbon HDMI cable would have achieved the same result without modifying the shell.
+* **Pre-Transport Preparation & Clearance:** Before closing the lid for transport, any USB peripherals/dongles must be removed from the front I/O panel, the mains power cable tucked into the corner recess, and the GPU PCIe power cable unplugged and routed down the side so it does not press against or damage the lid-mounted display. Using a low-profile 180-degree PCIe power adapter could eliminate the need to disconnect the GPU lead between uses.
+
