@@ -13,30 +13,40 @@ Built to consolidate spare desktop hardware into a self-contained, easily transp
 
 ## Hardware Specifications
 
-| Component    | Part/model                              | Notes                                                                                                 |   |   |
-|--------------|-----------------------------------------|-------------------------------------------------------------------------------------------------------|---|---|
-| Enclosure    | Peli 1450 Protector case                | Custom-fitted with Peli 1450-dimensioned Shadow Foam                                                  |   |   |
-| Motherboard  | ASRock Fatal1ty AB350 Gaming-ITX/ac     | Mini-ITX form factor using 3M motherboard standoffs                                                   |   |   |
-| CPU & Cooler | AMD Ryzen 7 1700 + Stock Wraith Cooler  | 8-core / 16-thread                                                                                    |   |   |
-| GPU          | NVIDIA GeForce GTX 1070                 | Outputs via HDMI with a right angle adapter to internal lid display                                   |   |   |
-| Memory       | Corsair Vengeance DDR4 (12GB @ 2666MHz) | Repurposed kit                                                                                        |   |   |
-| Storage      | Crucial BX500 2TB SSD                   | Partitioned for Windows 10 / Linux Mint dual-boot                                                     |   |   |
-| Power Supply | Corsair CS750M (750W Semi-Modular)      | Mains AC input, secured with double sided 3M sticky pads                                              |   |   |
-| Display      | Arzopa 15.6" 1080p IPS Portable Monitor | Mounted inside the lid using tailored Shadow Foam                                                     |   |   |
-| Front I/O    | Salvaged NZXT S340 Front Panel I/O      | Integrated for accessible power switch, USB, and audio ports. Secured to sidewall with 3M sticky pads |   |   |
-|              |                                         |                                                                                                       |   |   |
+| Component          | Part/model                                                        | Notes                                                                                                 |
+|--------------------|-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| Enclosure          | Peli 1450 Protector case                                          | Custom-fitted with Peli 1450-dimensioned Shadow Foam                                                  |
+| Motherboard        | ASRock Fatal1ty AB350 Gaming-ITX/ac                               | Mini-ITX form factor using 3M motherboard standoffs                                                   |
+| CPU & Cooler       | AMD Ryzen 7 1700 + Stock Wraith Cooler                            | 8-core / 16-thread                                                                                    |
+| GPU                | NVIDIA GeForce GTX 1070                                           | Outputs via HDMI                                                                                      |
+| Memory             | Corsair Vengeance DDR4 (12GB @ 2666MHz)                           | Repurposed kit                                                                                        |
+| Storage            | Crucial BX500 2TB SSD                                             | Partitioned for Windows 10 / Linux Mint dual-boot                                                     |
+| Power Supply       | Corsair CS750M (750W Semi-Modular)                                | Mains AC input, secured with double sided 3M sticky pads                                              |
+| Display            | Arzopa 15.6" 1080p IPS Portable Monitor                           | Mounted inside the lid using tailored Shadow Foam                                                     |
+| Front I/O          | Salvaged NZXT S340 Front Panel I/O                                | Integrated for accessible power switch, USB, and audio ports. Secured to sidewall with 3M sticky pads |
+| Adapters & Cabling | Right-angle RJ45, Mini-HDMI-to-HDMI + right-angle HDMI, 90° USB-C | Low-profile routing for lid clearance and rear I/O access                                             |                                       
 
 ## Physical Integration & Custom Modifications
 
 * **Lid Display & HDMI Clearance:** The Arzopa portable display is recessed into pre-sized Shadow Foam inside the case lid. A small clearance relief was cut into the side of the lid/foam channel to accommodate a right-angle Mini-HDMI to HDMI cable without putting strain on the display port or pinching the cable when the lid is closed.
 * **Salvaged Front Panel I/O:** The front I/O module from an NZXT S340 chassis was repurposed and mounted inside the case to provide accessible power/reset controls and external USB/audio connectivity without reaching the rear motherboard shield.
 * **Thermal & Power Operation:** Requires direct mains AC power to the Corsair CS750M PSU. The case is operated strictly with the lid open to ensure unobstructed intake and exhaust airflow across the Ryzen stock cooler, GTX 1070, and PSU.
-* **Cable Routing & Adapters:** Uses a right-angle Ethernet adapter for easier network cable access in tight quarters, and connects the GPU to the display using an HDMI-to-right-angle Mini-HDMI cable paired with a repurposed right-angle HDMI adapter at the GPU end.
 
 
 ![Lid HDMI Clearance and Internal Layout](assets/lid-hdmi-clearance.jpg)
 
 ![Workstation In Use](assets/in-use-linux-mint2~2.jpg)
+
+### Cable Routing & Clearance Modifications
+
+To keep the external Peli 1450 shell intact while fitting full-size desktop components, several low-profile adapters and minor internal reliefs were required:
+
+* **Display Power & Video (Lid):** Cut a small relief notch into the upper-left lid rim and Shadow Foam bezel to seat a right-angle Mini-HDMI-to-HDMI connector, connecting to the GPU with a repurposed right-angle HDMI adapter at the GPU end, paired with a 90-degree USB-C power lead routed down along the hinge channel.
+* **Rear I/O Access:** Installed an upward-facing right-angle RJ45 Ethernet adapter on the motherboard rear I/O to allow top-down network patching despite tight wall clearance.
+
+| Lid Display Relief & Right-Angle Leads | Rear I/O Right-Angle Ethernet Adapter |
+| :---: | :---: |
+| ![Lid cutout and right-angle Mini-HDMI/USB-C connections](assets/right-angle-hdmi.jpg) | ![Right-angle RJ45 adapter on motherboard rear I/O](assets/right-angle-eth.jpg) |
 
 ## Operating System & Dual-Boot Setup
 * **Bootloader:** GRUB managing dual-boot selection on the 2TB Crucial SSD.
