@@ -2,14 +2,19 @@
 
 An AC-powered, transportable desktop workstation housed inside a Peli 1450 protective case, built primarily from repurposed off-the-shelf desktop components and running a Windows 10 and Linux Mint dual-boot environment.
 
-![Open Workstation](assets/open-workstation.jpg)
-
-
-![Working Workstation](assets/in-use-linux-mint.jpeg)
+<table>
+  <tr>
+    <th align="center" width="50%">Open Workstation</th>
+    <th align="center" width="50%">Working Workstation (Linux Mint)</th>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="assets/open-workstation.jpg" alt="Open Workstation"></td>
+    <td align="center" width="50%"><img src="assets/in-use-linux-mint2~2.jpg" alt="Working Workstation (Linux Mint)"></td>
+  </tr>
+</table>
 
 ## Overview & Purpose
-Built to consolidate spare desktop hardware into a self-contained, easily transportable workstation without requiring an external monitor setup. The system operates on standard mains AC power with the lid open for airflow and screen visibility, serving as a cross-OS testing and diagnostics workstation—and previously filling in as a temporary Proxmox compute node for my homelab via a swappable SSD.
-
+Built to consolidate spare desktop hardware into a self-contained, easily transportable workstation without requiring an external monitor setup. The system operates on standard mains AC power, serving as a cross-OS testing and diagnostics workstation—and previously filling in as a temporary Proxmox compute node for my homelab via a swappable SSD.
 
 ## Hardware Specifications
 
@@ -32,10 +37,17 @@ Built to consolidate spare desktop hardware into a self-contained, easily transp
 * **Salvaged Front Panel I/O:** The front I/O module from an NZXT S340 chassis was repurposed and mounted inside the case to provide accessible power/reset controls and external USB/audio connectivity without reaching the rear motherboard shield.
 * **Thermal & Power Operation:** Requires direct mains AC power to the Corsair CS750M PSU. The case is operated strictly with the lid open to ensure unobstructed intake and exhaust airflow across the Ryzen stock cooler, GTX 1070, and PSU.
 
+<table>
+  <tr>
+    <th align="center" width="50%">Lid HDMI Clearance & Internal Layout</th>
+    <th align="center" width="50%">Pre-Shadow Foam Workstation (Linux Mint)</th>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="assets/lid-hdmi-clearance.jpg" alt="Lid HDMI Clearance and Internal Layout"></td>
+    <td align="center" width="50%"><img src="assets/in-use-linux-mint.jpeg" alt="Pre-Shadow Foam Workstation (Linux Mint)"></td>
+  </tr>
+</table>
 
-![Lid HDMI Clearance and Internal Layout](assets/lid-hdmi-clearance.jpg)
-
-![Workstation In Use](assets/in-use-linux-mint2~2.jpg)
 
 ### Cable Routing & Clearance Modifications
 
@@ -63,6 +75,7 @@ To keep the external Peli 1450 shell intact while fitting full-size desktop comp
 * **Non-Invasive Internal Mounting:** Using 3M motherboard standoffs and adhesive pads secures the hardware reliably during transport without drilling external mounting holes through the protective case, keeping it water tight to the manufacturers original standard for transportation.
 * **Display Cable Clearance:** Cutting a small side clearance in the lid allowed a standard HDMI-to-right-angle Mini-HDMI cable to fit without straining the port, though a flat ribbon HDMI cable would have achieved the same result without modifying the shell.
 * **Pre-Transport Preparation & Clearance:** Before closing the lid for transport, any USB peripherals/dongles must be removed from the front I/O panel, the mains power cable tucked into the corner recess, and the GPU PCIe power cable unplugged and routed down the side so it does not press against or damage the lid-mounted display. Using a low-profile 180-degree PCIe power adapter could eliminate the need to disconnect the GPU lead between uses.
-![Internal Transport Configuration](assets/transport-internal.jpg)
-![Closed Peli 1450 Ready for Transport](assets/transport-closed.jpg)
 
+| Internal Transport Configuration | Closed Peli 1450 Ready for Transport |
+| :---: | :---: |
+| ![Internal Transport Configuration](assets/transport-internal.jpg) | ![Closed Peli 1450 Ready for Transport](assets/transport-closed.jpg) |
